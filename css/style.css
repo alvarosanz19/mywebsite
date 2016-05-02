@@ -1,0 +1,796 @@
+/* =======================================
+    style.css
+    use this file for your custom styles
+========================================== */
+
+/* use a box model that makes sense */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Small screens (default) */
+html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
+}
+@media (min-width: 840px) {
+  .column{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  }
+.column.full {
+  width: 50%;
+
+}
+
+.column.two-thirds {
+  width: 66.7%;
+
+}
+.column.half {
+  width: 70%;
+
+}
+.column.third{
+  width: 33.3%;
+}
+
+.column.fourth{
+  width: 25%;
+
+}
+.row:before,
+.row:after{
+  content: " ";
+  display: table;
+}
+.row:after{
+  clear:both;
+}
+.row{
+  *zoom: 1;
+}
+/* set the default color, font-size, and line height */
+html {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+  width: 800px;
+
+  margin: 0 auto;
+}
+body {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px; /* change this width to make a wider page!*/
+  padding: 0 1em; /* 1em of padding on the left and right side */
+}
+
+/* make images and embedded media fluid */
+img,
+object {
+  max-width: 100%;
+}
+
+/* type hierarchy- change for your project */
+h1 {
+  font-size: 3em; /* 48px */
+}
+
+h2 {
+  font-size: 2.25em /* 36px */
+}
+
+h3 {
+  font-size: 1.75em /* 28px */
+}
+
+h4 {
+  font-size: 1.125em /*18px */
+}
+
+/* navigation list styles */
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* =======================================
+    author styles
+    place your custom styles below here
+========================================== */
+.poster img {
+  float: left;
+  margin-left: 0;
+  margin-top: 25px;
+  padding-bottom: 40px;
+}
+
+.photoshop h1{
+  font-size: 70px;
+
+  margin-top: 20px;
+  letter-spacing: 20px;
+}
+.poster {
+  padding-bottom: 50px;
+  margin-top: -40px;
+}
+.photoshop {
+  margin-bottom: 40px;
+}
+.matt {
+  width: 500px;
+  float: right;
+  margin-right: 0px;
+}
+.matt p{
+  font-size: 26px;
+}
+.poster h2{
+  margin-left: 0px;
+  margin-bottom: 1px;
+  margin-top: 50px;
+}
+.car h2{
+margin-left: 80px;
+margin-top: 30px;
+}
+.car {
+  margin-top: 40px;
+}
+.car img {
+  margin-left: 0px;
+}
+.carr p{
+  width: 100%;
+  margin-left: 0px;
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+.video {
+  margin-left: 20px;
+  padding-bottom: 50px;
+}
+.video p{
+  width: 100%;
+  font-size: 26px;
+  margin-left: 20px;
+}
+.animation h1{
+  font-size: 70px;
+margin-left: 20px;
+  margin-top: 20px;
+  letter-spacing: 20px;
+}
+
+.column-full p{
+margin-left: 110px;
+}
+.where{
+  float:right;
+margin-right: 40px;
+margin-bottom: 0px;
+}
+.column-full {
+  padding-left: 100px;
+}
+.logo {
+margin-left: 200px;
+padding-top: 30px;
+}
+
+.logoindex{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.alvaro h1{
+  font-size: 90px;
+height: 50px;
+padding-bottom: 95px;
+float: left;
+}
+.alvaro {
+  margin-top: -20px;
+}
+.mediaa {
+  float: right;
+  margin-top: 120px;
+}
+.allworkp p {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 335px;
+}
+.allwork {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.allworkimg:hover {
+
+box-shadow: inset 0 0 0 25px #53a7ea;
+  }
+  .columnfulll {
+  margin-top: 30px;                                                  columnfulll
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color: grey;
+    float: left;
+  }
+
+.resumepage {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 8px;
+}
+.resumepage h1 {
+  font-size: 100px;
+margin: 0 auto;
+text-align: center;
+}
+.highschool h1{
+  font-size: 50px;
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 20px;
+  letter-spacing: 20px;
+
+
+}
+.highschool {
+  margin-bottom: 40px;
+}
+.3highschools {
+  padding-bottom: 50px;
+  margin-top: -40px;
+}
+.3highschools h2{
+  margin-left: 0px;
+  margin-bottom: 1px;
+  margin-top: 40px;
+}
+.column.half img{
+  float: right;
+  padding-top: 88px;
+}
+.trinity {
+  border: solid;
+  margin-top: 0px;
+}
+.trinity h3 {
+  padding-left: 30px;
+}
+.trinity p {
+  padding-left: 30px;
+  padding-right: 30px;
+font-size: 20px;
+}
+.po {
+  border: solid;
+  margin-top: 10px;
+}
+.po h3 {
+  padding-left: 30px;
+}
+.po p {
+  padding-left: 30px;
+  padding-right: 30px;
+font-size: 20px;
+}
+.ridgefield {
+  border: solid;
+  margin-top: 10px;
+}
+.ridgefield h3 {
+  padding-left: 30px;
+}
+.ridgefield p {
+  padding-left: 30px;
+  padding-right: 30px;
+font-size: 20px;
+}
+.passionp p{
+  font-size: 30px;
+  margin-left: 155px;
+  margin-top: 0px;
+}
+.passion img{
+
+  padding-top: -30px;
+  margin-top: -20px;
+}
+.passion {
+  margin-left: 70px;
+}
+.passionimg:hover {
+box-shadow: inset 0 0 0 25px #53a7ea;
+}
+.experience h1{
+  font-size: 50px;
+  text-align: left;
+  margin-top: 20px;
+  letter-spacing: 20px;
+}
+.experience1 {
+  margin-top: 60px;
+}
+.skills {
+  margin-top: 50px;
+  float: left;
+}
+.skills1 {
+  float: right;
+margin-left: 500px;
+}
+.aboutme  h1{
+  font-size: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.me h3{
+  margin-top: 20px;
+  font-size: 70px;
+  letter-spacing: 7px;
+}
+.me p{
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+
+.atleti h3 {
+  margin-top: 20px;
+  font-size: 70px;
+  letter-spacing: 7px;
+}
+.atleti p{
+  margin-top: -40px;
+  font-size: 20px;
+}
+.atleti img {
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 0.2s ease;
+}
+.atleti img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 0.2s ease;
+}
+.allwork h1{
+  font-size: 100px;
+  margin-top: -20px;
+  margin-bottom: 13px;
+}
+.himymtext {
+  float: right;
+  margin-top: 120px;
+width: 60%;
+text-align: right;
+}
+.himym h2{
+  float: right;
+  margin-top: -85px;
+  margin-bottom: 0px;
+}
+.himymtext img{
+margin-top: -102px;
+  float: left;
+}
+.himym img{
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 0.2s ease;
+}
+.himym img:hover{
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 0.2s ease;
+}
+.himymtext p {
+  font-size: 20px;
+  margin-top: -15px;
+}
+.himym {
+  margin-top: -35px;
+}
+.starwarstext {
+  float: right;
+  margin-top: -100px;
+  width: 60%;
+}
+.starwarstext p{
+  font-size: 20px;
+  margin-top: -15px;
+}
+.starwarstext {
+  margin-top: 25px;
+}
+.starwars img {
+  float: right;
+  margin-bottom: -60px;
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 0.2s ease;
+}
+.starwars img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 0.2s ease;
+}
+
+.anhqvtext {
+  float: right;
+  margin-top: 25px;
+width: 60%;
+}
+.anhqv img{
+margin-top: -22px;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 0.2s ease;
+}
+.anhqv img:hover{
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 0.2s ease;
+}
+.anhqvtext {
+  text-align: right;
+}
+.anhqv img {
+  float: left;
+}
+.anhqv p {
+  font-size: 20px;
+  margin-top: -15px;
+}
+.tv h3{
+  margin-top: 20px;
+  font-size: 70px;
+  letter-spacing: 7px;
+}
+.eminemtext {
+  float: right;
+  margin-top: 95px;
+width: 60%;
+text-align: right;
+}
+.eminem h2{
+  float: right;
+  margin-top: -85px;
+  margin-bottom: 0px;
+}
+.eminem img{
+margin-top: -22px;
+  float: left;
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 0.2s ease;
+}
+.eminem img:hover{
+  filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 0.2s ease;
+}
+.eminemtext p {
+  font-size: 20px;
+  margin-top: -15px;
+}
+.eminem {
+  margin-top: -35px;
+}
+.kazetext {
+  float: left;
+  margin-top: -25px;
+width: 60%;
+}
+.kaze img{
+margin-top: 15px;
+  float: right;
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 0.2s ease;
+}
+.kaze img:hover{
+  filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 0.2s ease;
+}
+.kazetext p {
+  font-size: 20px;
+  margin-top: -15px;
+}
+.kaze {
+  margin-top: -35px;
+}
+.macmillertext {
+  float: right;
+  margin-top: -285px;
+width: 60%;
+text-align: right;
+
+}
+.macmiller img{
+margin-top: 15px;
+  float: right;
+  margin-right: 150px;
+  margin-left: -100px;
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 0.2s ease;
+}
+.macmiller img:hover{
+  filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 0.2s ease;
+}
+.macmillertext p {
+  font-size: 20px;
+  margin-top: -15px;
+
+}
+.macmiller {
+  margin-top: -35px;
+}
+.resumeimg:hover {
+box-shadow: inset 0 0 0 25px #53a7ea;
+}
+.resume {
+  float: right;
+  margin-top: -257px;
+  margin-right: 60px;
+}
+.resumep p{
+  margin-top: -70px;
+  float: right;
+  margin-right: 150px;
+}
+
+.me h3 {
+  margin-bottom: 25px;
+}
+.nothing {
+  float: right;
+  margin-right: 330px;
+  font-size: 12px;
+}
+hr {
+  width: 350px;
+  border-width: 4px;
+  border-color: black;
+padding-right: -50px;
+}
+.linea5 hr{
+  width: 54%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: -167px;
+}
+.linea7 hr{
+  width: 62%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: -65px;
+}
+.linea8 hr{
+  width: 10%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: 48px;
+}
+.linea9 hr{
+  width: 9%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: 48px;
+}
+.linea6 hr{
+  width: 54%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: -137px;
+}
+.columnfull {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+
+  width: 2000px;
+  margin-left: -610px;
+  color: grey;
+}
+.backtomain:hover {
+  box-shadow: inset 0 0 0 1px #53a7ea;
+}
+
+.tele img {
+  margin-top: -120px;
+}
+.linea2 hr {
+  width: 83%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: -115px;
+}
+.lineaaa hr {
+  width: 1%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: -115px;
+}
+.lineaa hr {
+  width: 80%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: -70px;
+}
+.linea1 hr {
+  width: 81%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: -72px;
+}
+.linea3 hr{
+  width: 65%;
+  border-width: 1px;
+  border-color: black;
+float: right;
+margin-top: -115px;
+}
+
+.music h3 {
+  margin-top: 20px;
+  font-size: 70px;
+  letter-spacing: 7px;
+}
+
+/* =======================================
+    Layout
+    keep this at the bottom
+========================================== */
+a:visited {
+  color: grey;
+}
+
+/* style hover/focus links */
+a:hover,
+a:active,
+a:focus {
+  color: black;
+}
+@media (min-width: 620px) {
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .column.full {
+    width: 100%;
+  }
+
+  .column.two-thirds {
+    width: 66.7%;
+  }
+
+  .column.half {
+    width: 50%;
+  }
+
+  .column.third {
+    width: 33.3%;
+  }
+
+  .column.fourth {
+    width: 25%;
+  }
+
+  .column.flow-opposite {
+    float: right;
+  }
+}
+
+
+/* row used as a clearfix to clear floats */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.row {
+  *zoom: 1;
+}
